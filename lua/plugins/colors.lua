@@ -5,5 +5,4 @@ return {
   { "timmyha/henna.nvim" },
   { "nyoom-engineering/oxocarbon.nvim" },
   { "https://github.com/folke/tokyonight.nvim" },
-  { "https://github.com/navarasu/onedark.nvim" },
 }

@@ -83,6 +83,10 @@ keymap("n", "<leader>gh", ":Gitsigns next_hunk<CR>", opts)
 keymap("n", "<leader>gH", ":Gitsigns prev_hunk<CR>", opts)
 keymap("n", "<leader>gp", ":Gitsigns preview_hunk<CR>", opts)
 keymap("n", "<leader>gb", ":Gitsigns blame_line<CR>", opts)
+
+--LazyGit
+vim.keymap.set("n", "<leader>gg", ":LazyGit<CR>", { noremap = true, silent = true })
+
 -- DAP
 keymap("n", "<leader>dc", ":lua require'dap'.continue()<CR>", opts)
 keymap("n", "<leader>db", ":lua require'dap'.toggle_breakpoint()<CR>", opts)

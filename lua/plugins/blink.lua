@@ -55,7 +55,6 @@ return {
 
     -- ** start sources **
     sources = {
-      cmdline = {},
       providers = {
         lsp = {
           name = "LSP",
