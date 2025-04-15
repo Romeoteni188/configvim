@@ -10,6 +10,8 @@ return {
         javascript = { "prettier" },
         javascriptreact = { "prettier" },
         typescript = { "prettier" },
+        svelte = { "prettier" },
+        html = { "prettier" },
         typescriptreact = { "prettier" },
         json = { "prettier" },
         jsonc = { "prettier" },
