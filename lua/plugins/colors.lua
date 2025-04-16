@@ -4,6 +4,15 @@ return {
   { "timmyha/henna.nvim" },
   { "nyoom-engineering/oxocarbon.nvim" },
   { "https://github.com/folke/tokyonight.nvim" },
-  { "https://github.com/navarasu/onedark.nvim" },
-  { "https://github.com/joshdick/onedark.vim" },
+  {
+    "navarasu/onedark.nvim",
+    priority = 1000,
+    config = function()
+      require("onedark").setup({
+        style = "deep", -- Cambiá esto por: dark, darker, cool, deep, warm, warmer, light
+      })
+      require("onedark").load()
+    end,
+  },
+  { "EdenEast/nightfox.nvim" },
 }
