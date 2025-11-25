@@ -97,3 +97,5 @@ keymap("n", "<leader>dcb", ":lua require'dap'.clear_breakpoints()<CR>", opts)
 
 -- Guardar con Ctrl + S en cualquier modo
 keymap("n", "<C-s>", ":w<CR>", opts)
+--Eliminar todo el contenido de un archivo
+keymap("n", "<leader>D", ":%d<CR>", opts) -- D de Delete All

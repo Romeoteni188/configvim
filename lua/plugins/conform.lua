@@ -19,6 +19,7 @@ return {
         css = { "prettier" },
         lua = { "stylua" },
         php = { "php_cs_fixer" },
+        python = { "black" },
         blade = { "blade-formatter" },
         yaml = { lsp_format = "fallback" },
         helm = { lsp_format = "fallback" },

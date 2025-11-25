@@ -3,12 +3,14 @@ return {
   event = "VeryLazy",
   config = function()
     require("image").setup({
-      backend = "kitty", -- estamos usando Kitty como terminal
+      backend = "kitty", -- Ghostty usa el protocolo de Kitty
       integrations = {
-        markdown = {
-          enabled = true, -- mostrar imágenes en archivos markdown
-        },
+        markdown = { enabled = true },
+        neorg = { enabled = true },
       },
+      max_width = 100,
+      max_height = 50,
+      window_overlap_clear_enabled = true,
     })
   end,
 }
